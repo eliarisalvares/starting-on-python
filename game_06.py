@@ -1,11 +1,11 @@
 # Sixth version of the game. The last one.
-# Adding levels and points, removed elif redundancy.
+# Adding levels and points, removed elif redundancy and "Game Over" message.
 
 import random
 
-print("*******************")
-print("Welcome to my game!")
-print("*******************")
+print("****************************")
+print("Welcome to my guessing game!")
+print("****************************")
 
 secret_number = random.randrange(0, 100)
 total_guesses = 10
@@ -47,6 +47,9 @@ for round in range(1, total_guesses + 1):
 			print("You lost. This number is higher than the secret number!")
 		else:
 			print("You lost. This number is lower than the secret number!")
+	if round == total_guesses:
+		print("GAME OVER")
+		break
 	# the abs() function returns the absolute value of a numeric value given as
 	# a parameter. This is done to avoid negative points being deducted.
 	lost_points = abs(secret_number - guess_int)
