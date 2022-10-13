@@ -1,0 +1,15 @@
+In Python, the "+" operator is used to make the append/concatenation with
+strings and not only to sum numbers.
+
+In Python 3, the parenthesis are required: print "Hello, World" raises syntax
+error. Also, the concatenation of strings in the print instruction works
+differently: print ("Hello", "World", end='!') would produce "Hello World!".
+In Python 2, print ("Hello", "World") would produce ('Hello', 'World').
+The "sep" and "end" parameters didn't exist in Python 2.
+
+Also, the input() function in Python 2 would return integer and string type
+based on the value rather than being character string by default. The
+raw_input() function would return character string as default. All of this
+was considered bad practice.
+
+In Python 3, all functions use parenthesis "()".
