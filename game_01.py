@@ -1,6 +1,3 @@
-import secrets
-
-
 print("*******************")
 print("Welcome to my game!")
 print("*******************")
