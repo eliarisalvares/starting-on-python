@@ -1,3 +1,6 @@
+# Third version of the game.
+# While loop, print syntax with placeholders and format() method.
+
 print("*******************")
 print("Welcome to my game!")
 print("*******************")

@@ -1,3 +1,6 @@
+# Forth version of the game.
+# For loop and break statement.
+
 print("*******************")
 print("Welcome to my game!")
 print("*******************")

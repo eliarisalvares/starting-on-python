@@ -1,3 +1,6 @@
+# Second version of the game.
+# Elif statement, code readability.
+
 print("*******************")
 print("Welcome to my game!")
 print("*******************")
