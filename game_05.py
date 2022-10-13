@@ -42,8 +42,8 @@ for round in range(1, total_guesses + 1):
 	# jump to the beginning of the loop
 
 	win = guess_int == secret_number
-	higher = guess_int < secret_number
-	lower = guess_int > secret_number
+	higher = guess_int > secret_number
+	lower = guess_int < secret_number
 
 	print("You guessed:", guess_str)
 	if win:

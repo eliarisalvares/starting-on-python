@@ -13,3 +13,11 @@ raw_input() function would return character string as default. All of this
 was considered bad practice.
 
 In Python 3, all functions use parenthesis "()".
+
+The round() function also changed in Python3 in comparison to Python2.
+in Python2 its return was a float and in Python3 is an integer. Also, Python3
+uses the Banker's rounding which means 4.5 will be rounded to 4.0 instead of
+5.0.
+
+In Python there's an additional division operator. The "//" is called integer
+division and always returns an integer (doesn't round it).

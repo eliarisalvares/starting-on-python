@@ -23,8 +23,8 @@ else:
 # To improve code readability, we can insert this conditions into variables.
 
 win = guess_int == secret_number
-higher = guess_int < secret_number
-lower = guess_int > secret_number
+higher = guess_int > secret_number
+lower = guess_int < secret_number
 
 if win:
 	print("YOU WIN!")

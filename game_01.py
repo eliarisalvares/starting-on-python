@@ -1,5 +1,5 @@
 # first version of the game.
-# variables declaration and comparision - basic Python syntax
+# variables declaration and comparison - basic Python syntax
 
 print("*******************")
 print("Welcome to my game!")
