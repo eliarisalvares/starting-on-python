@@ -1,0 +1,7 @@
+In Python, when we import files from other directories to be used in our
+current file, if the imported file has no function(s) or class(es) into it,
+it will trigger the whole file's code to be executed.
+
+To avoid this and still run the file using its own file we use the
+if __name__ == "__main__":
+	function()

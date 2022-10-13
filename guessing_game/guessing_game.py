@@ -51,9 +51,15 @@ def guessing_game():
 				print("You lost. This number is higher than the secret number!")
 			else:
 				print("You lost. This number is lower than the secret number!")
-		if round == total_guesses:
+		if round == total_guesses and guess_int != secret_number:
 			print("GAME OVER")
 			break
+		print ("************************************")
+		print ("End of game! The secret number is {}".format(secret_number))
+		print ("************************************")
+
 		lost_points = abs(secret_number - guess_int)
 		points -= lost_points
 
+if __name__ == "__main__":
+	guessing_game()
