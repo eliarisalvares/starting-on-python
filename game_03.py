@@ -1,5 +1,7 @@
 # Third version of the game.
 # While loop, print syntax with placeholders and format() method.
+# https://docs.python.org/3/library/string.html#formatexamples Python docs:
+# Print format() method.
 
 print("*******************")
 print("Welcome to my game!")
